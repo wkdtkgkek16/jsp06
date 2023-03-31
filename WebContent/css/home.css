@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1 {
+	text-align:center;
+	margin-top:50px;
+}
+
+
+
+.div_footer {
+	margin: 50px 0px;
+	padding: 20px;
+	text-align:center;
+	border-top: 3px solid gray;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'GmarketSansMedium';
+}
+
+.ellipsis {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+ }
+ 
+
